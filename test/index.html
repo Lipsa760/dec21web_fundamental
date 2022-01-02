@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .form {
+            text-align: center;
+            font-size: 3vh;
+            line-height: 30px;
+            background-image: url("https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top:10px;
+             padding-left:50px;
+            padding-right:50px;
+        }
+
+        .course {
+            box-shadow: 0 0 50px #000000;
+            width: 40%;
+            height: 65%;
+            margin-left: 27%;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <div class="course">
+            <form>
+                <label>FirstName</label>
+                <input type="text" name="name" placeholder="Enter Your Name" id="name" /></br></br>
+                <label>LastName</label>
+                <input type="text" name="name" placeholder="Enter Your Name" /></br></br>
+                <label>Email</label>
+                <input type="email" placeholder="Enter Your Email" pattern=".+@gmail.com" required /></br></br>
+                <label>Phone no.</label>
+                <input type="number" placeholder="Enter Your phone no." pattern="1426656789" minlength="10"
+                    required /></br></br>
+                <label>Gender</label>
+                <input type="radio" name="male" />Male
+                <input type="radio" name="female" />Female </br></br>
+                <label>Birth Date</label>
+                <input type="date" placeholder="Enter Your date of birth" pattern="01.02.201" required /></br></br>
+                <label for="selector">Select Course</label>
+                <select id="selector">
+                    <option value="Web Development">Web Development</option>
+                    <option value="Frontend Development">Frontend Development</option>
+                    <option value="Backend Development">Backend Development</option>
+                    <option value="Java Development">Java Development</option>
+                </select></br></br>
+                <label>Your Skills</label>
+                <input type="checkbox" name="HTML" />HTML
+                <input type="checkbox" name="CSS" />CSS
+                <input type="checkbox" name="JavaScript" />JavaScript
+                <input type="checkbox" name="Java" />Java
+                <input type="checkbox" name="ReactJS" />ReactJS
+                <input type="checkbox" name="None" />None</br></br></br>
+                <label>City</label>
+                <input type="texr" placeholder="Enter Your city" required /></br></br>
+                <label>State</label>
+                <input type="text" placeholder="Enter Your state" required /></br></br>
+                <input type="reset">
+                <input type="submit" >
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
