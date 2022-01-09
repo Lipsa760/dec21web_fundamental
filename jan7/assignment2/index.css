@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000B49;
+}
+#triangle{
+    margin-left: 35%;
+    margin-top: 8%;
+}
+#upper{
+    border-bottom-color:#9B0000 ;
+    top: -7%;
+    z-index: 2;
+}
+#middle{
+    border-bottom-color: #FF7272 ;
+    top: 5%;
+    z-index: 1;
+}
+#lower{
+    border-bottom-color:#FFB5B5;
+    top: 17%;
+}
+.tree{
+    border: 220px dashed transparent;
+    border-bottom-width: 220px;
+    border-bottom-style: solid;
+    position: absolute;
+}
