@@ -1,0 +1,15 @@
+body{
+    margin: 80px;
+    text-align: center;
+}
+img{
+    height: 10%;
+    width: 10%;
+}
+hr{
+    width: 30%;
+}
+button{
+    background-color: black;
+    color: white;
+}
