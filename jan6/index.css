@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.container{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 40px 400px  0 300px;
+    background-color: #D3DEDC;
+    box-shadow: 0 0 10px black;
+   
+}
+ p{
+    text-align: justify;
+}
+.heading{
+    text-align: center;
+} 
