@@ -1,0 +1,37 @@
+body{
+    background-color: #193498;
+    color: white;
+  }
+    #bg{
+    margin-top: 10%;
+    margin-left: 39%;
+    width: 400px;
+    height: 200px;
+    background-color: #113CFC;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+  #display {
+    width: 100%;
+    height:60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color:#1597E5;
+  }
+  .incdec{
+      width: 30%;
+      height: 100px;
+      margin: 2px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      background-color: #69DADB;
+  }
