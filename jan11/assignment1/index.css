@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color:#FAEDF0;
+    height:auto;
+    width:100%;
+}
+.sticky-bar{
+    background-color: #292c6d;
+    color:white;
+    font-weight: bolder;
+    padding:10px 0;
+    position: sticky;
+
+    top: 2px;
+}
+p{
+    color:#292c6d;
+}
