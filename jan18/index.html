@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <script src="https://kit.fontawesome.com/bb5fe33e4d.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+        .bodyWrapper{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            min-width: 250px;
+            margin: auto;
+        }
+        .nav-menu{
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+             position: sticky; 
+             top: 0px;
+            background-color: rgb(114, 6, 66);
+            color: white;
+            width: 100%;
+           
+        }
+        #img-logo{
+            /* margin-left: 10px; */
+            width: 1px;
+            height: 1px;
+        }
+        .icons{
+        
+              width: 80px;
+              height: 30px;
+              display: flex;
+              justify-content: space-between;
+        }
+        
+        .stories{
+            width: 100%;
+            height: 13vh;
+            display: flex;  
+            overflow-x: auto;
+            padding-bottom: 3px;
+           border-bottom:0.001px solid black;
+        }
+        .stories::-webkit-scrollbar {   
+             display: none;
+            }
+            .img-story img{
+                width: 100%;
+                height: 100%;
+            }
+        .img-story{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: blue;
+            margin: 10px;
+        }
+        .post-details{
+            width: 100%;
+            height: 12vh;
+            padding-bottom: 10px;
+        }
+        .image-box{
+            height: 38vh;
+           
+        }
+        .image-box img{
+            width: 100%;
+            height: 100%;
+        }
+        .like-comment-share{
+            display: flex;
+             width: 92px;
+            justify-content: space-between;
+           }
+        .like-comment-share img{
+            padding: 5px;
+        }   
+        
+    </style>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="bodyWrapper">
+        <div class="nav-menu">
+            <span class="logo-icon"><i class="material-icons" style="font-size: 31px;">add_box</i></span>
+            <span>Instagram</span>
+               <span class="logo-icon"> <i class="fab fa-facebook-messenger" style="font-size: 30px;"></i><span></span>
+        </div>
+        <div class="stories">
+            <img class="img-story"src="https://images.pexels.com/photos/1767434/pexels-photo-1767434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/1194036/pexels-photo-1194036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/2026960/pexels-photo-2026960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/101537/baby-boy-hat-covered-101537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/2100553/pexels-photo-2100553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/69372/pexels-photo-69372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/735423/pexels-photo-735423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/920220/pexels-photo-920220.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+            <img class="img-story"src="https://images.pexels.com/photos/208087/pexels-photo-208087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+            
+        </div>
+       <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    <div class="common-post-content">
+        <div class="post-details">
+            <img class="img-story" src="https://images.pexels.com/photos/257532/pexels-photo-257532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> <span style="position: relative; top: -33px;font-weight: bold; ">iron_man</span>
+                <div style="margin-right: 10px; float: right; margin-top: 20px;"> <span class="logo-icon"  ><i class="material-icons" style="font-size: 31px;">more_vert</i></span></div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.pexels.com/photos/5691359/pexels-photo-5691359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class="post-action">
+            <div class="like-comment-share" style="float: left;">
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="far fa-paper-plane"></i>                   
+            </div>
+            <div class="save-post" style="float: right;">
+                <span class="logo-icon"  ><i class="material-icons" style="font-size: 35px;">bookmark_border</i>
+            </div>
+        </div>
+        <br><br>
+        <div class="likes-comment" style="display: block;">
+            <b><span style="font-family:sans-serif ;">2000 likes</span><br></b>
+            <span>view all comments</span><br>
+            <small>2 hours ago</small>
+        </div>
+    </div> 
+    </div>
+</body>
+      </html>
