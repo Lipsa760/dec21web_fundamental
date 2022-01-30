@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/bb5fe33e4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2> Sign up Form</h2>
+        </div>
+        <form class="form">
+            <div class="form-control">
+                <label for="username">UserName</label>
+                <input type="text" id="username">
+                <small class="username" id="error"></small>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="form-control">
+                <label for="email">email</label>
+                <input type="text" id="email">
+                <small  class="email" id="error"></small>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" id="password">
+                <small  class="password" id="error"></small>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="form-control">
+                <label for="confirm-password">confirm password</label>
+                <input type="password" id="confirm-password">
+                <small  class="confirm-password" id="error"></small>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
