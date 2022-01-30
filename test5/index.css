@@ -1,0 +1,33 @@
+body{
+    background-color: #161853;
+}
+input{
+    margin-left: 560px;
+    margin-top: 50px;
+}
+#university {
+font-family:sans-serif;
+margin-top: 40px;
+margin-left: 13%;
+box-shadow: 0 0 50px black;
+color: cornsilk;
+}
+#university td, #university th {
+border: 1px solid #faedf0;
+padding: 8px;
+}
+
+#university tr:nth-child(even){background-color: #f2f2f2; color: black;}
+
+#university tr:hover {background-color: #EC255A;}
+
+#university th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #292c6d;
+color: white;
+}
+#university td{
+text-align: center;
+}
